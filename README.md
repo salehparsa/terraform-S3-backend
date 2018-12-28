@@ -11,7 +11,7 @@ This templated tested with Terraform v0.11.11 and provider.aws v1.54.0.
 
 ## Configure AWS Access Key
 
-Technically, [Terraform](https://www.terraform.io) can read Access Key from `env` file. Thus, you can configure AWS Access Key with [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/configure/index.html):
+Technically, [Terraform](https://www.terraform.io) can read AWS Access Key from `env` file. Thus, you can configure AWS Access Key with [AWS CLI](https://docs.aws.amazon.com/cli/latest/reference/configure/index.html):
 
 ```
 aws configure
