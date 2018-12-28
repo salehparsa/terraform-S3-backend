@@ -28,7 +28,7 @@ export AWS_SECRET_ACCESS_KEY=(your secret access key)
 
 ## Configuration
 
-In `vars.tf` you can define Bucket Name and AWS Region of Your bucket by using the `default` parameter:
+In `vars.tf` you can define Bucket Name and AWS Region of your bucket by using the `default` parameter:
 
 ```hcl
 variable "bucket_name" {
@@ -43,6 +43,8 @@ variable "aws_region" {
   default = "(AWS Region)"
 }
 ```
+
+If you don't configure above, terraform asks you prior to apply.
 
 ## Terraform
 
