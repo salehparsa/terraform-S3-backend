@@ -2,8 +2,8 @@ notifications:
   email: false
 
 before_install:
-  - wget https://releases.hashicorp.com/terraform/0.11.11/terraform_0.11.11_linux_amd64.zip
-  - sudo unzip terraform_0.11.1_linux_amd64.zip
+  - wget https://releases.hashicorp.com/terraform/0.11.11g/terraform_0.11.11_linux_amd64.zip
+  - sudo unzip terraform_0.11.11_linux_amd64.zip
 
 script:
   - ./terraform init
