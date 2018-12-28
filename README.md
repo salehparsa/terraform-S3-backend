@@ -77,7 +77,7 @@ For using this bucket as [remote state storage](https://www.terraform.io/docs/ba
 ```hcl
 terraform {
   backend "s3" {
-    bucket = "${var.db_remote_state_bucket}"
+    bucket = "Bucket Name"
     key    = "(Path To Your tfstate file)/terraform.tfstate"
     region = "(Bucket Region)"
   }
