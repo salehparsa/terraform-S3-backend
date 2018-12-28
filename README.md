@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/salehparsa/terraform-S3-backend.svg?branch=master)](https://travis-ci.org/salehparsa/terraform-S3-backend)
+
 # S3 Remote State Backend
 
 This repository helps you to store Terraform State in [S3](https://aws.amazon.com/s3/) bucket in an [Amazon Web Services (AWS)](http://aws.amazon.com/). The S3 bucket can be used for [remote state storage](https://www.terraform.io/docs/backends/types/s3.html).
